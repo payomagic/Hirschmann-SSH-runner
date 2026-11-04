@@ -1,0 +1,5 @@
+# Commands run in privileged (#) mode, one per line
+show system info
+show interface status
+show vlan brief
+show mac-addr-table

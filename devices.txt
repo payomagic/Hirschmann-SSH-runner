@@ -1,0 +1,5 @@
+# Hirschmann switches - one per line, optional :port
+# Lines starting with # are ignored
+10.10.10.11
+10.10.10.12
+# 10.10.10.13:2222
