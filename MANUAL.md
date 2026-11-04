@@ -331,8 +331,8 @@ To rebuild with the same options after a code change: `pyinstaller hirschmann_ss
 
 ## 14. Known limitations
 
-- Tested against a simulated HiOS 10.3.09 SSH server. Not yet tested on real GRS1042/BRS30 hardware.
-- The paging command `cli numlines 0` has not been verified against the HiOS CLI reference. If a switch rejects it, use `--paging-cmd` with the correct command or `--paging-cmd ""`; `--More--` handling still captures the full output.
+- Tested against a HiOS 09.4.05, 10.3.07, 10.3.09 GRS1042, BRS30, RSP35, RSPE35. 
+- The paging command `cli numlines 0` has been verified against the HiOS CLI reference. If a switch rejects it, use `--paging-cmd` with different command or `--paging-cmd ""`; `--More--` handling still captures the full output.
 - One timeout value for all commands and switches.
 - No parallel connections.
 - No `IPv6:port` notation in the devices file.
@@ -343,4 +343,4 @@ To rebuild with the same options after a code change: `pyinstaller hirschmann_ss
 
 | Version | Date | Changes |
 |---|---|---|
-| 1.0 | 2026-10-23 | First release of the manual (tool v1.0) |
+| 1.0 | 2026-09-25 | First release of the manual (tool v1.0) |
